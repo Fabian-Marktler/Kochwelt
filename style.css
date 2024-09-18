@@ -1,0 +1,31 @@
+body {
+    margin: 0;
+}
+
+li {
+    list-style-type: none;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    background-color: lightgray;
+}
+
+#new {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+p {
+    margin-top: 0;
+}
+
+img {
+    border-radius: 8px;
+}
