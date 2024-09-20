@@ -2,8 +2,25 @@ body {
     margin: 0;
 }
 
+/*main {
+    padding: 0px 160px;
+}
+    */
+
 li {
     list-style-type: none;
+}
+
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+button {
+    background-color: #016601;
+    border: none;
+    padding: 4px 24px;
 }
 
 section {
@@ -34,24 +51,36 @@ article {
 #new {
     display: flex;
     justify-content: space-evenly;
-    width: 100%;
 }
 
-#section1 {
+#rezept_des_tages {
     display: flex;
     flex-direction: row;
-    text-align: start;
+    align-items: center;
+    justify-content: center;
 }
 
-#section2 {
+#franz_crossiants {
+    
+}
+
+#lust_auf_was_neues {
     background-color: lightgray;
 }
 
+#pfanne_oder_wok {
+    
+}
 
 #wok {
     display: flex;
     flex-direction: row-reverse;
 }
+
+
+
+
+
 
 
 
