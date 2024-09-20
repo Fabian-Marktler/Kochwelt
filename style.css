@@ -9,11 +9,26 @@ li {
 section {
     display: flex;
     flex-direction: column;
+}
+
+p {
+    margin-top: 0;
+}
+
+h1 {
     justify-content: center;
     align-items: center;
     text-align: center;
+}
 
-    background-color: lightgray;
+img {
+    border-radius: 8px;
+}
+
+article {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
 
 #new {
@@ -22,10 +37,21 @@ section {
     width: 100%;
 }
 
-p {
-    margin-top: 0;
+#section1 {
+    display: flex;
+    flex-direction: row;
+    text-align: start;
 }
 
-img {
-    border-radius: 8px;
+#section2 {
+    background-color: lightgray;
 }
+
+
+#wok {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+
+
